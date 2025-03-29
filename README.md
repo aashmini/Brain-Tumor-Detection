@@ -1,4 +1,4 @@
-# Brain Tumor Detection Using Deep Learning
+# Brain Tumor Detection Using Deep Learning(MobileNetV2)
 
 # Overview
 This project uses AI-based image processing and deep learning to detect brain tumors from MRI scans. The model is trained to classify images into tumor or non-tumor categories, providing an efficient and automated diagnosis tool.
