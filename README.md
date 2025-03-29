@@ -20,7 +20,7 @@ The dataset consists of MRI scan images labeled as Tumor and No Tumor. The model
 
 # Model Performance
 The model has been trained on a large dataset, achieving:
-- Accuracy: 95%+
+- Accuracy: 94%+
 - Precision & Recall: Optimized for medical diagnosis
 
 
