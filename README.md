@@ -10,7 +10,10 @@ This project uses AI-based image processing and deep learning to detect brain tu
 - Supports MRI Scan Images for tumor detection
 
 # Dataset
-The dataset consists of MRI scan images labeled as Tumor and No Tumor. The model has been trained using CNN-based architectures for high accuracy.
+The model is trained on publicly available MRI brain scan datasets containing labeled tumor and non-tumor images. Preprocessing includes:
+* Image resizing to match MobileNetV2 input dimensions (224x224)
+* Normalization to scale pixel values between 0 and 1
+* Data augmentation to improve generalization
 
 # Technology Stack
   - Python 🐍TensorFlow / Keras for Deep Learning
