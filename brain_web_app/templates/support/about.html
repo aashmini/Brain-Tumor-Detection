@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroScan | About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --primary: #4361ee;
+      --primary-dark: #3a56d4;
+      --gray: #6c757d;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --border-radius: 12px;
+      --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f7fa;
+      color: var(--dark);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      background-color: var(--primary);
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .btn:hover {
+      background-color: var(--primary-dark);
+    }
+
+    h1 {
+      color: var(--primary);
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+      color: var(--gray);
+    }
+
+    .section-title {
+      color: var(--primary-dark);
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    li {
+      color: var(--gray);
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--gray);
+      padding: 1rem;
+      background-color: #e9ecef;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <a href="{{ url_for('home') }}" class="btn">Home</a>
+    </div>
+
+    <h1>About NeuroScan</h1>
+
+    <p><strong>NeuroScan</strong> is an intelligent web-based application built to assist in the early detection of brain tumors using MRI scans. It utilizes the power of deep learning to analyze medical images and provide quick, accurate predictions—empowering doctors and patients with AI-driven insights.</p>
+
+    <div class="section-title">🔍 Purpose & Goal</div>
+    <p>The primary goal of NeuroScan is to support medical professionals by automating the preliminary screening process. It helps reduce the workload of radiologists and facilitates early diagnosis, especially in remote or underserved areas where access to medical specialists is limited.</p>
+
+    <div class="section-title">💡 Features</div>
+    <ul>
+      <li>Upload and analyze MRI scans instantly</li>
+      <li>AI-based brain tumor detection</li>
+      <li>Role-based dashboards for Admin, Doctor, and Patient</li>
+      <li>Clean, user-friendly interface</li>
+      <li>Secure image handling and privacy-first design</li>
+    </ul>
+
+    <div class="section-title">🧠 AI Models Used</div>
+    <p>The core prediction engine is powered by the <strong>MobileNetV2</strong> model, a lightweight and efficient deep learning architecture optimized for image classification tasks. It is especially suitable for deployment in web apps due to its speed and accuracy balance.</p>
+    <p>Model Highlights:</p>
+    <ul>
+      <li>Pre-trained on ImageNet and fine-tuned with brain MRI datasets</li>
+      <li>Achieves over 90% accuracy in classifying MRI images as tumorous or non-tumorous</li>
+      <li>Uses transfer learning to improve efficiency on limited data</li>
+    </ul>
+
+    <div class="section-title">🛠️ Technologies Used</div>
+    <ul>
+      <li><strong>Flask:</strong> Backend web framework (Python)</li>
+      <li><strong>Keras & TensorFlow:</strong> For building and running the AI model</li>
+      <li><strong>HTML, CSS (Poppins Font):</strong> For building elegant, responsive UI</li>
+      <li><strong>Jinja2:</strong> Templating engine to render dynamic HTML</li>
+    </ul>
+
+    <div class="section-title">🔐 Data Privacy</div>
+    <p>NeuroScan ensures all medical data is handled with care. Uploaded images are not stored permanently, and no personal information is collected without user consent. The platform complies with best practices for data security in healthcare applications.</p>
+
+    <div class="section-title">👩‍⚕️ Clinical Use Disclaimer</div>
+    <p>While NeuroScan provides highly accurate results, it is intended for supportive use only. It should be used in conjunction with professional clinical evaluations and not as a standalone diagnostic tool.</p>
+
+    <div class="section-title">🚀 Future Scope</div>
+    <ul>
+      <li>Support for multiple types of brain disorders</li>
+      <li>Integration with hospital management systems</li>
+      <li>Real-time scan processing using cloud services</li>
+    </ul>
+  </div>
+  <footer>
+    &copy; 2025 NeuroScan. All rights reserved. |
+    <a href="about.html" style="color: var(--primary); text-decoration: none;">About</a> |
+    <a href="settings.html" style="color: var(--primary); text-decoration: none;">Settings</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Result: {{ result }} </h1>
+    <img src="{{ url_for('uploaded_file', filename=image_filename) }}" width="400">
+    <p><a href="/">Upload another</a></p>
+</body>
+</html>
+

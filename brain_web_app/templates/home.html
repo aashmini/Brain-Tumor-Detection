@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroScan | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <style>
+    :root {
+      --primary: #4361ee;
+      --primary-dark: #3a56d4;
+      --danger: #f72585;
+      --success: #4cc9f0;
+      --warning: #ff9f1c;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --gray: #6c757d;
+      --border-radius: 12px;
+      --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f7fa;
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .nav-right a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    .nav-right a:hover {
+      color: var(--primary-dark);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .logo i {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-right: 1rem;
+    }
+
+    .logo h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .tagline {
+      text-align: center;
+      font-size: 1rem;
+      color: var(--gray);
+      margin-bottom: 2rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin: 4rem auto;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--gray);
+      margin-bottom: 2rem;
+    }
+    .nav-link {
+    font-weight: 500;
+    padding: 0.5rem 0;
+    position: relative;
+    color: var(--medium-gray);
+    transition: var(--transition);
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: var(--primary);
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    transition: var(--transition);
+  }
+  
+  .nav-link:hover::after, .nav-link.active::after {
+    width: 100%;
+  }
+
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      font-size: 1rem;
+      margin: 0.5rem;
+    }
+
+    .btn:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(67, 97, 238, 0.3);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: var(--border-radius);
+      padding: 2rem;
+      text-align: center;
+      box-shadow: var(--box-shadow);
+    }
+
+    .feature-card i {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .feature-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+    }
+
+    .feature-card p {
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--gray);
+      padding: 1rem;
+      background-color: #e9ecef;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+    }
+
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 2rem;
+      }
+
+      .logo h1 {
+        font-size: 1.5rem;
+      }
+
+      .hero {
+        padding: 0 1rem;
+      }
+    }
+
+    .chat-wrapper {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .chat-btn {
+      width: 60px;
+      height: 60px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s ease;
+    }
+
+    .chat-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .chat-popup {
+      display: none;
+      position: absolute;
+      bottom: 70px;
+      right: 0;
+      width: 384px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+    .chat-header {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .chat-header h4 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .close-chat {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .chat-body {
+      padding: 0;
+    }
+    .chat-reminder {
+    position: absolute;
+    bottom: 20px; /* same height as the chat button */
+    right: 70px; /* push it left from the button */
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 999;
+    box-shadow: 0px 2px 10px rgba(0, 123, 255, 0.4);
+}
+
+.chat-reminder::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #007BFF;
+}
+
+.chat-reminder.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Navigation -->
+    <div class="navbar">
+      <div class="nav-right">
+        <div class="nav-links">
+        <a href="{{ url_for('about') }}" class="nav-link">About</a>
+        <a href="{{ url_for('faq') }}" class="nav-link">FAQ</a>
+        <a href="{{ url_for('treatment') }}" class="nav-link">Treatment</a>
+      </div>
+    </div>
+    </div>
+
+    <!-- Logo and Tagline -->
+    <div class="logo">
+      <i class="fas fa-brain"></i>
+      <h1>NeuroScan</h1>
+    </div>
+    <p class="tagline">AI-powered Brain Tumor Detection System</p>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h2>Empowering Early Detection Through AI</h2>
+      <p>Upload MRI scans and get instant analysis for potential brain tumors using state-of-the-art deep learning technology.</p>
+      <a href="{{ url_for('index') }}" class="btn"><i class="fas fa-microscope"></i> Test Your Scan</a>
+      <a href="{{ url_for('text_detect') }}" class="btn"><i class="fas fa-file-medical-alt"></i> Detect from Text Report</a>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="feature-card">
+        <i class="fas fa-brain"></i>
+        <h3>Accurate Analysis</h3>
+        <p>Trained on a diverse dataset for high accuracy in tumor prediction.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-clock"></i>
+        <h3>Fast Results</h3>
+        <p>Get results in seconds with our optimized deep learning pipeline.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Secure Uploads</h3>
+        <p>Your data is handled securely and never stored without permission.</p>
+      </div>
+    </section>
+
+    <!-- Chat -->
+    <div class="chat-wrapper">
+      <button class="chat-btn" onclick="toggleChat()">💬</button>
+      <div class="chat-popup" id="chatPopup">
+        <div class="chat-header">
+          <h4>NeuroScan Assistant</h4>
+          <button class="close-chat" onclick="toggleChat()">✖</button>
+        </div>
+        <div class="chat-body">
+          <iframe 
+            src="https://studio.pickaxe.co/_embed/86X56TWHEB?d=deployment-235094b9-fdc3-4404-9d56-dd7656c36533"
+            style="width: 100%; height: 480px; border: none; border-radius: 8px;"
+            frameborder="0"
+            allow="clipboard-write">
+          </iframe>
+        </div>
+      </div>
+      <div id="chatReminder" class="chat-reminder">This is your NeuroScan Assistant</div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 NeuroScan. All rights reserved. |
+      <a href="about.html" style="color: var(--primary); text-decoration: none;">About</a> 
+     
+    </footer>
+  </div>
+  <script>
+    const chatPopup = document.getElementById("chatPopup");
+    const reminder = document.getElementById("chatReminder");
+  
+    function toggleChat() {
+      const isOpen = chatPopup.style.display === "block";
+      chatPopup.style.display = isOpen ? "none" : "block";
+  
+      // Hide reminder when chat opens
+      if (!isOpen) {
+        reminder.classList.remove("show");
+      }
+    }
+  
+    // Show reminder every 5 seconds only if chat is not open
+    setInterval(() => {
+      if (chatPopup.style.display !== "block") {
+        reminder.classList.add("show");
+        setTimeout(() => {
+          reminder.classList.remove("show");
+        }, 2000);
+      }
+    }, 5000);
+  </script>
+  
+  
+</body>
+</html>

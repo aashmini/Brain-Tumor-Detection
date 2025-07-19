@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Treatment Plan | NeuroScan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f9ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #2b2e4a;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #4a60ff;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .hospital-list {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .hospital {
+      background-color: #f0f6ff;
+      border-left: 5px solid #4a60ff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+
+    .hospital a {
+      font-size: 1.1rem;
+      text-decoration: none;
+      color: #2b2e4a;
+    }
+
+    .hospital a:hover {
+      text-decoration: underline;
+      color: #4a60ff;
+    }
+
+    .back-button {
+      display: block;
+      margin-top: 40px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      color: #4a60ff;
+    }
+  </style>
+</head>
+<body>
+    <a href="{{ url_for('home') }}" class="back-button">Home</a>
+  <div class="container">
+    <h1>Brain Tumor Treatment Plan</h1>
+
+    <h2>🔬 Diagnosis & Classification</h2>
+    <p>Once a tumor is detected, further tests like biopsy or advanced imaging are performed to classify the tumor type (benign or malignant) and grade (I–IV).</p>
+
+    <h2>💊 Treatment Options</h2>
+    <ul>
+      <li><strong>Surgery:</strong> Removal of the tumor if accessible. Often the first line of treatment.</li>
+      <li><strong>Radiation Therapy:</strong> Uses high-energy rays to kill tumor cells and shrink tumors.</li>
+      <li><strong>Chemotherapy:</strong> Drugs used to kill or stop growth of cancerous cells.</li>
+      <li><strong>Targeted Therapy:</strong> Focuses on specific molecules involved in tumor growth.</li>
+      <li><strong>Immunotherapy:</strong> Helps the immune system recognize and destroy tumor cells.</li>
+    </ul>
+
+    <h2>🧠 Post-Treatment Care</h2>
+    <p>After treatment, regular follow-ups, MRI scans, and neuro-rehabilitation may be recommended to monitor recovery and detect recurrence.</p>
+
+    <h2>🧘 Supportive Therapies</h2>
+    <ul>
+      <li>Psychological Counseling</li>
+      <li>Physical Therapy</li>
+      <li>Speech & Occupational Therapy</li>
+      <li>Nutritional Support</li>
+    </ul>
+
+    <h2>🧠 Features & Methods for Brain Tumor Detection</h2>
+    <h3>🔍 Key Symptoms:</h3>
+    <ul>
+      <li>Severe headaches</li>
+      <li>Nausea and vomiting</li>
+      <li>Seizures</li>
+      <li>Vision or speech problems</li>
+      <li>Loss of balance or coordination</li>
+      <li>Memory loss or changes in mental clarity</li>
+    </ul>
+
+    <h3>⚡ Risk Factors for Brain Tumors:</h3>
+    <ul>
+      <li>Age – Certain brain tumors are more common in younger individuals (e.g., gliomas).</li>
+      <li>Family history – Having a relative with a brain tumor increases risk.</li>
+      <li>Radiation exposure – A history of radiation therapy increases tumor risk.</li>
+      <li>Genetic disorders – Certain inherited conditions increase brain tumor risk (e.g., neurofibromatosis).</li>
+    </ul>
+
+    <h3>🧑‍⚕️ Diagnostic Methods:</h3>
+    <ul>
+      <li><strong>Magnetic Resonance Imaging (MRI):</strong> The most effective imaging method for brain tumor diagnosis.</li>
+      <li><strong>Computed Tomography (CT) Scan:</strong> Often used to detect tumors and swelling in the brain.</li>
+      <li><strong>Biopsy:</strong> Invasive procedure to obtain tissue from the tumor for analysis.</li>
+      <li><strong>Positron Emission Tomography (PET) Scan:</strong> Can help identify areas of abnormal cell activity.</li>
+    </ul>
+
+    <h3>📊 Tumor Stages and Clinical Signs:</h3>
+    <ul>
+      <li><strong>Stage I:</strong> Localized, slow-growing tumors that are more likely to be surgically removed.</li>
+      <li><strong>Stage II:</strong> Tumors that can spread and may require a combination of surgery and treatment.</li>
+      <li><strong>Stage III:</strong> Tumors with aggressive growth that can invade nearby brain tissue.</li>
+      <li><strong>Stage IV:</strong> Advanced tumors that often require multiple treatments, including surgery, chemotherapy, and radiation.</li>
+    </ul>
+
+    <h3>🛡️ Prevention and Early Detection:</h3>
+    <p>Although it’s difficult to prevent brain tumors, early detection can lead to more successful treatment outcomes. Regular checkups, especially if you have a family history or other risk factors, are vital.</p>
+
+    <h2>🏥 Top Neurological Hospitals in India</h2>
+    <div class="hospital-list">
+      <div class="hospital">
+        <a href="https://www.aiims.edu/en.html" target="_blank">
+          <h3>All India Institute of Medical Sciences (AIIMS), New Delhi</h3>
+        </a>
+        <p>Renowned for neurosurgery and neuroscience departments with state-of-the-art facilities.</p>
+      </div>
+      <div class="hospital">
+        <a href="https://nimhans.ac.in/" target="_blank">
+          <h3>NIMHANS, Bangalore</h3>
+        </a>
+        <p>National Institute of Mental Health and Neurosciences – a top-tier center for brain and spinal disorders.</p>
+      </div>
+      <div class="hospital">
+        <a href="https://www.cmch-vellore.edu/" target="_blank">
+          <h3>Christian Medical College (CMC), Vellore</h3>
+        </a>
+        <p>Well-known for comprehensive brain tumor care, surgical expertise, and research.</p>
+      </div>
+      <div class="hospital">
+        <a href="https://www.apollohospitals.com/" target="_blank">
+          <h3>Apollo Hospitals, Chennai</h3>
+        </a>
+        <p>Equipped with advanced neurosurgical tools, personalized care, and international standards.</p>
+      </div>
+      <div class="hospital">
+        <a href="https://www.fortishealthcare.com/india/" target="_blank">
+          <h3>Fortis Hospital, Mumbai</h3>
+        </a>
+        <p>Offers advanced neurology care, robotic-assisted neurosurgery, and rehabilitation services.</p>
+      </div>
+    </div>
+
+    
+  </div>
+</body>
+</html>

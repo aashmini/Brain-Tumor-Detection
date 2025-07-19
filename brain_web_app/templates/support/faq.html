@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroScan | FAQ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4361ee;
+      --primary-dark: #3a56d4;
+      --gray: #6c757d;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --border-radius: 12px;
+      --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f7fa;
+      color: var(--dark);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .btn {
+      background-color: var(--primary);
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .btn:hover {
+      background-color: var(--primary-dark);
+    }
+    h1 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 2rem;
+    }
+
+    .faq-section {
+      margin-bottom: 2rem;
+    }
+
+    .faq-title {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 0.5rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1rem;
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      transition: var(--transition);
+    }
+
+    .faq-question {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+    }
+
+    .faq-answer {
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .btn:hover {
+      background: var(--primary-dark);
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--gray);
+      padding: 1rem;
+      background-color: #e9ecef;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <a href="{{ url_for('home') }}" class="btn">Home</a>
+    </div>
+
+    <h1>Frequently Asked Questions</h1>
+
+    <div class="faq-section">
+      <div class="faq-title">Model & Accuracy</div>
+
+      <div class="faq-item">
+        <div class="faq-question">How accurate is the NeuroScan AI?</div>
+        <div class="faq-answer">Our AI model achieves over 90% accuracy in detecting brain tumors using MRI scans, thanks to extensive training and fine-tuning on a well-labeled dataset.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Which model is used?</div>
+        <div class="faq-answer">We use a pre-trained MobileNetV2 deep learning model that is optimized for medical image classification.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How was the model trained?</div>
+        <div class="faq-answer">The model was trained on a publicly available dataset of brain MRI scans using supervised learning and fine-tuned using transfer learning techniques to enhance performance.</div>
+      </div>
+    </div>
+
+    <div class="faq-section">
+      <div class="faq-title">Usage & Platform</div>
+
+      <div class="faq-item">
+        <div class="faq-question">How to upload an MRI?</div>
+        <div class="faq-answer">Simply click the "Test Your Scan" button on the home page and upload an image file in PNG, JPG, or JPEG format.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Is my data secure?</div>
+        <div class="faq-answer">Yes, all uploaded data is processed securely. We do not store any personal or medical data without your explicit consent.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Can doctors use this for diagnosis?</div>
+        <div class="faq-answer">NeuroScan is a supportive tool for early detection and should be used alongside professional medical advice. It is not a replacement for clinical diagnosis.</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 NeuroScan. All rights reserved. |
+    <a href="about.html" style="color: var(--primary); text-decoration: none;">About</a> |
+    <a href="settings.html" style="color: var(--primary); text-decoration: none;">Settings</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,501 @@
+patient_id,age,gender,symptoms,symptom_duration_weeks,family_history,medical_history,neurological_exam,imaging_report,lab_results,tumor_present
+1,66,Male,No symptoms,46,No,Diabetes,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,1
+2,29,Female,"Temporary vision spots, Mild forgetfulness",2,No,Migraines,No focal deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+3,75,Female,"Dizziness, Mild forgetfulness",43,No,,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+4,35,Female,"Persistent headaches worse in morning, Nausea and vomiting, Difficulty speaking",1,No,Hypertension,Cognitive deficits; Cognitive deficits,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,1
+5,38,Female,"Stress-related symptoms, Migraine",300,No,Diabetes,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+6,17,Female,No symptoms,36,Yes,Diabetes,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,1
+7,36,Female,"Light sensitivity, Migraine",51,Yes,,No motor/sensory deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+8,67,Male,"Light sensitivity, Sleep disturbances",26,No,Depression,Normal neurological exam,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+9,16,Male,"Temporary vision spots, Migraine",29,Yes,Diabetes,Normal gait and balance,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+10,120,Male,Light sensitivity,21,No,Hypothyroidism,Normal gait and balance,MRI: Normal ventricular size and configuration,Normal blood work,0
+11,52,Male,"Dizziness, Temporary vision spots",11,No,,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+12,16,Female,"Difficulty speaking, Hearing problems",40,No,Diabetes,Visual field defect; Facial droop present,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Abnormal hormone levels,1
+13,78,Male,Occasional headaches,11,No,Asthma,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+14,74,Female,Anxiety symptoms,36,No,Hypothyroidism,No motor/sensory deficits,CT: No acute intracranial findings,Routine labs within normal limits,0
+15,35,Female,Unrelated symptom A,49,Yes,,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,1
+16,47,Female,Occasional headaches,39,No,High cholesterol,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+17,72,Male,Anxiety symptoms,40,No,,No motor/sensory deficits,MRI: Unremarkable study,Unremarkable blood tests,0
+18,36,Male,Anxiety symptoms,35,Yes,Depression,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+19,63,Female,Dizziness,34,No,,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal blood work,0
+20,73,Female,"Stress-related symptoms, Temporary vision spots",47,No,Migraines,Normal gait and balance,MRI: Unremarkable study,Unremarkable blood tests,0
+21,56,Male,"Mild forgetfulness, Dizziness",24,No,,Normal gait and balance,CT: No acute intracranial findings,Routine labs within normal limits,0
+22,74,Female,Migraine,22,No,High cholesterol,No motor/sensory deficits,CT: No acute intracranial findings,Normal blood work,0
+23,29,Male,"Weakness in limbs, Persistent headaches worse in morning",5,No,Hypertension,Gait disturbance; Visual field defect,CT: Hypodense area with surrounding edema in right temporal lobe,Mild leukocytosis,1
+24,76,Male,"Difficulty speaking, Loss of balance",33,No,High cholesterol,Gait disturbance; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Abnormal hormone levels,1
+25,76,Male,Mild forgetfulness,36,No,Diabetes,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+26,61,Male,Mild forgetfulness,47,Yes,Hypertension,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+27,76,Female,Dizziness,20,No,Migraines,Normal neurological exam,CT: No acute intracranial findings,Routine labs within normal limits,0
+28,65,Female,"Fatigue, Stress-related symptoms",19,No,Diabetes,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+29,69,Male,"Migraine, Occasional headaches",35,Yes,,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+30,78,Female,"Fatigue, Occasional headaches",43,No,,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+31,17,Female,"Difficulty speaking, Loss of balance, Hearing problems, Persistent headaches worse in morning",17,No,Migraines,Abnormal reflexes; Visual field defect,CT: Irregular hyperdense mass with calcifications in parietal lobe,Elevated protein in CSF,1
+32,65,Female,Anxiety symptoms,45,No,High cholesterol,Normal gait and balance,MRI: Normal ventricular size and configuration,Normal blood work,0
+33,21,Male,"Occasional headaches, Migraine",43,No,Migraines,Intact cranial nerves,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+34,35,Male,"Dizziness, Sleep disturbances",34,No,,No motor/sensory deficits,MRI: Unremarkable study,Normal blood work,0
+35,120,Male,"Hearing problems, Blurred or double vision, Seizures, Nausea and vomiting",9,No,Hypertension,Facial droop present; Abnormal reflexes,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,1
+36,32,Male,"Temporary vision spots, Sleep disturbances",26,No,Depression,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+37,18,Male,Light sensitivity,2,No,Depression,Intact cranial nerves,CT: No acute intracranial findings,Normal metabolic panel,0
+38,74,Female,Temporary vision spots,9,No,Hypertension,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+39,28,Male,"Sleep disturbances, Dizziness",9,No,Migraines,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+40,120,Male,"Dizziness, Migraine",40,No,Hypertension,Intact cranial nerves,CT: No acute intracranial findings,Routine labs within normal limits,0
+41,67,Male,Light sensitivity,17,No,Asthma,No focal deficits,MRI: Unremarkable study,Normal metabolic panel,0
+42,16,Male,"Hearing problems, Difficulty speaking, Seizures, Nausea and vomiting",1,No,Migraines,Visual field defect; Gait disturbance,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+43,74,Male,"Hearing problems, Difficulty speaking, Loss of balance",25,No,,Abnormal reflexes; Mild hemiparesis observed,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Elevated protein in CSF,1
+44,58,Male,Light sensitivity,43,No,Depression,Normal gait and balance,CT: No acute intracranial findings,Normal blood work,0
+45,22,Male,Dizziness,40,No,,No focal deficits,CT: No acute intracranial findings,No significant abnormalities,0
+46,61,Male,"Hearing problems, Blurred or double vision, Nausea and vomiting",42,Yes,High cholesterol,Abnormal reflexes; Abnormal reflexes,CT: Hypodense area with surrounding edema in right temporal lobe,Electrolyte imbalance,1
+47,49,Male,"Dizziness, Anxiety symptoms",300,Yes,Hypertension,No focal deficits,CT: No acute intracranial findings,No significant abnormalities,0
+48,50,Female,"Mild forgetfulness, Temporary vision spots",300,No,,No focal deficits,MRI: Unremarkable study,Routine labs within normal limits,0
+49,64,Male,"Dizziness, Anxiety symptoms",35,No,Depression,No motor/sensory deficits,CT: No acute intracranial findings,Normal metabolic panel,0
+50,18,Male,"Seizures, Loss of balance, Hearing problems, Difficulty speaking",3,No,Hypertension,Visual field defect; Visual field defect,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,1
+51,16,Male,"Light sensitivity, Mild forgetfulness",50,No,Hypothyroidism,No focal deficits,MRI: Unremarkable study,No significant abnormalities,0
+52,20,Female,"Migraine, Dizziness",37,No,Hypothyroidism,Normal gait and balance,MRI: Normal ventricular size and configuration,Normal blood work,0
+53,120,Male,Dizziness,44,No,Hypothyroidism,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+54,18,Female,"Loss of balance, Nausea and vomiting, Memory problems, Hearing problems",44,No,High cholesterol,Cognitive deficits; Pupil asymmetry noted,MRI: Heterogeneously enhancing lesion with mass effect,Mild leukocytosis,1
+55,68,Female,"Nausea and vomiting, Persistent headaches worse in morning",51,No,Diabetes,Facial droop present; Gait disturbance,CT: Hypodense area with surrounding edema in right temporal lobe,Mild leukocytosis,1
+56,77,Male,Sleep disturbances,30,No,High cholesterol,Normal neurological exam,MRI: Unremarkable study,Normal blood work,0
+57,32,Female,Sleep disturbances,38,No,Migraines,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+58,58,Female,"Loss of balance, Weakness in limbs, Seizures, Persistent headaches worse in morning",34,No,High cholesterol,Gait disturbance; Abnormal reflexes,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Elevated protein in CSF,1
+59,48,Male,"Fatigue, Stress-related symptoms",12,Yes,Migraines,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+60,76,Male,Temporary vision spots,19,Yes,High cholesterol,No motor/sensory deficits,CT: No acute intracranial findings,Normal blood work,0
+61,28,Female,Migraine,37,Yes,Asthma,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+62,62,Female,"Weakness in limbs, Persistent headaches worse in morning",44,No,Hypertension,Facial droop present; Facial droop present,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Abnormal hormone levels,1
+63,29,Female,"Mild forgetfulness, Light sensitivity",49,No,Migraines,Normal neurological exam,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+64,76,Male,"Seizures, Weakness in limbs, Persistent headaches worse in morning",17,No,Asthma,Mild hemiparesis observed; Cognitive deficits,CT: Hypodense area with surrounding edema in right temporal lobe,Electrolyte imbalance,1
+65,54,Female,"Weakness in limbs, Hearing problems",10,No,Asthma,Cognitive deficits; Abnormal reflexes,CT: Irregular hyperdense mass with calcifications in parietal lobe,Elevated protein in CSF,1
+66,67,Male,Random symptom,49,Yes,Diabetes,Cognitive deficits; Abnormal reflexes,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Abnormal hormone levels,0
+67,38,Female,"Nausea and vomiting, Personality changes",47,No,High cholesterol,Gait disturbance; Abnormal reflexes,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Increased inflammatory markers,1
+68,40,Female,Light sensitivity,12,No,Asthma,No focal deficits,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+69,74,Male,"Personality changes, Weakness in limbs",16,No,Depression,Visual field defect; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Electrolyte imbalance,1
+70,55,Male,"Blurred or double vision, Loss of balance",24,No,,Abnormal reflexes; Abnormal reflexes,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,1
+71,120,Male,"Nausea and vomiting, Personality changes, Weakness in limbs",19,No,Depression,Mild hemiparesis observed; Pupil asymmetry noted,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,1
+72,29,Male,"Dizziness, Light sensitivity",8,Yes,Hypothyroidism,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+73,59,Male,Occasional headaches,31,No,Migraines,Normal neurological exam,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+74,79,Female,"Stress-related symptoms, Temporary vision spots",21,No,Hypertension,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+75,23,Female,"Dizziness, Temporary vision spots",17,No,Hypothyroidism,Normal gait and balance,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+76,15,Female,"Memory problems, Personality changes",200,No,Hypothyroidism,Gait disturbance; Visual field defect,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Abnormal hormone levels,1
+77,22,Female,"Migraine, Stress-related symptoms",37,No,Diabetes,No motor/sensory deficits,CT: No acute intracranial findings,Routine labs within normal limits,0
+78,77,Female,"Seizures, Difficulty speaking, Persistent headaches worse in morning, Hearing problems",16,No,Hypertension,Cognitive deficits; Facial droop present,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Elevated protein in CSF,1
+79,25,Female,Unrelated symptom A,6,No,Hypothyroidism,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,1
+80,22,Female,No symptoms,8,No,High cholesterol,No motor/sensory deficits,MRI: Normal ventricular size and configuration,No significant abnormalities,1
+81,120,Male,"Loss of balance, Memory problems, Difficulty speaking, Seizures",25,No,Asthma,Pupil asymmetry noted; Facial droop present,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,1
+82,49,Male,"Fatigue, Stress-related symptoms",18,No,Migraines,No focal deficits,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+83,47,Male,"Weakness in limbs, Persistent headaches worse in morning, Loss of balance, Difficulty speaking",25,Yes,Depression,Abnormal reflexes; Cognitive deficits,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Elevated protein in CSF,1
+84,19,Male,"Light sensitivity, Stress-related symptoms",12,No,Migraines,Normal neurological exam,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+85,55,Male,Dizziness,15,No,Hypertension,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+86,42,Male,"Migraine, Light sensitivity",26,No,Asthma,No focal deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+87,21,Female,"Hearing problems, Loss of balance, Difficulty speaking, Seizures",41,No,Hypothyroidism,Cognitive deficits; Cognitive deficits,CT: Hypodense area with surrounding edema in right temporal lobe,Elevated protein in CSF,1
+88,26,Female,"Persistent headaches worse in morning, Hearing problems, Nausea and vomiting",45,No,Migraines,Pupil asymmetry noted; Gait disturbance,MRI: Heterogeneously enhancing lesion with mass effect,Increased inflammatory markers,1
+89,48,Male,Anxiety symptoms,26,No,Depression,Normal gait and balance,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+90,47,Male,Unrelated symptom A,47,No,Diabetes,Cognitive deficits; Abnormal reflexes,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Increased inflammatory markers,0
+91,62,Male,"Light sensitivity, Migraine",32,No,High cholesterol,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+92,120,Female,"Seizures, Weakness in limbs, Nausea and vomiting",10,No,Asthma,Gait disturbance; Pupil asymmetry noted,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+93,76,Male,Sleep disturbances,16,No,Asthma,Intact cranial nerves,CT: No acute intracranial findings,No significant abnormalities,0
+94,51,Female,"Migraine, Fatigue",7,No,Migraines,Normal gait and balance,CT: No acute intracranial findings,Routine labs within normal limits,0
+95,58,Male,"Weakness in limbs, Memory problems, Difficulty speaking",100,No,Migraines,Mild hemiparesis observed; Abnormal reflexes,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+96,49,Female,"Nausea and vomiting, Difficulty speaking, Blurred or double vision, Personality changes",23,No,Hypertension,Pupil asymmetry noted; Visual field defect,CT: Hypodense area with surrounding edema in right temporal lobe,Mild leukocytosis,1
+97,79,Female,"Hearing problems, Seizures",26,No,Depression,Cognitive deficits; Mild hemiparesis observed,MRI: Heterogeneously enhancing lesion with mass effect,Electrolyte imbalance,1
+98,61,Male,"Sleep disturbances, Temporary vision spots",21,No,Asthma,No focal deficits,MRI: No intracranial mass or abnormal enhancement,No significant abnormalities,0
+99,17,Female,Occasional headaches,22,No,Asthma,No focal deficits,CT: No acute intracranial findings,No significant abnormalities,0
+100,15,Female,Stress-related symptoms,7,No,Hypertension,Intact cranial nerves,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+101,19,Female,"Weakness in limbs, Persistent headaches worse in morning",14,No,,Abnormal reflexes; Facial droop present,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Abnormal hormone levels,1
+102,28,Male,"Fatigue, Occasional headaches",15,No,,Intact cranial nerves,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+103,41,Female,Dizziness,7,Yes,Depression,Normal neurological exam,CT: No acute intracranial findings,Normal blood work,0
+104,23,Female,Stress-related symptoms,9,No,High cholesterol,Intact cranial nerves,MRI: Unremarkable study,Normal blood work,0
+105,29,Female,"Light sensitivity, Mild forgetfulness",51,Yes,Hypertension,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+106,110,Female,Anxiety symptoms,48,No,Depression,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+107,65,Female,"Hearing problems, Persistent headaches worse in morning",8,No,Hypothyroidism,Abnormal reflexes; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+108,77,Female,"Fatigue, Light sensitivity",50,No,Depression,No focal deficits,MRI: Unremarkable study,Normal metabolic panel,0
+109,66,Female,"Dizziness, Sleep disturbances",23,No,Hypothyroidism,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+110,18,Female,"Mild forgetfulness, Light sensitivity",29,Yes,Asthma,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+111,37,Female,"Stress-related symptoms, Sleep disturbances",18,No,,Intact cranial nerves,CT: No acute intracranial findings,Normal metabolic panel,0
+112,29,Male,Fatigue,31,No,Depression,No focal deficits,MRI: Unremarkable study,No significant abnormalities,0
+113,57,Female,"Fatigue, Dizziness",30,No,Hypothyroidism,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+114,43,Female,Sleep disturbances,39,No,Depression,Intact cranial nerves,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+115,50,Male,"Memory problems, Difficulty speaking, Hearing problems, Weakness in limbs",35,Yes,High cholesterol,Facial droop present; Abnormal reflexes,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,1
+116,120,Female,"Seizures, Weakness in limbs",18,No,Hypertension,Gait disturbance; Gait disturbance,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+117,46,Male,"Hearing problems, Weakness in limbs, Memory problems, Difficulty speaking",42,No,Hypothyroidism,Abnormal reflexes; Abnormal reflexes,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+118,73,Female,"Weakness in limbs, Memory problems",39,No,Asthma,Pupil asymmetry noted; Abnormal reflexes,MRI: Heterogeneously enhancing lesion with mass effect,Elevated protein in CSF,1
+119,42,Female,"Difficulty speaking, Loss of balance, Persistent headaches worse in morning",17,No,Hypothyroidism,Facial droop present; Gait disturbance,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+120,80,Female,"Hearing problems, Persistent headaches worse in morning",14,No,Hypertension,Abnormal reflexes; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Increased inflammatory markers,1
+121,56,Male,"Anxiety symptoms, Dizziness",31,No,Depression,Normal gait and balance,MRI: Unremarkable study,Normal blood work,0
+122,59,Female,Sleep disturbances,300,No,Asthma,Intact cranial nerves,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+123,76,Female,Unrelated symptom A,35,No,Depression,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal metabolic panel,1
+124,71,Male,"Dizziness, Migraine",44,No,Hypertension,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+125,20,Male,"Seizures, Loss of balance, Difficulty speaking",45,No,,Gait disturbance; Abnormal reflexes,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Increased inflammatory markers,1
+126,42,Female,Stress-related symptoms,34,Yes,Migraines,No focal deficits,MRI: Unremarkable study,Normal metabolic panel,0
+127,120,Male,Migraine,3,No,Hypothyroidism,Intact cranial nerves,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+128,58,Male,"Dizziness, Light sensitivity",37,No,Asthma,Normal neurological exam,CT: No acute intracranial findings,Normal blood work,0
+129,44,Female,"Migraine, Anxiety symptoms",43,No,High cholesterol,No motor/sensory deficits,MRI: Unremarkable study,Unremarkable blood tests,0
+130,76,Male,Unrelated symptom A,40,No,Asthma,Pupil asymmetry noted; Mild hemiparesis observed,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,0
+131,76,Female,Anxiety symptoms,26,No,Diabetes,Normal neurological exam,MRI: Unremarkable study,Unremarkable blood tests,0
+132,15,Male,"Seizures, Hearing problems, Blurred or double vision",23,No,Diabetes,Gait disturbance; Abnormal reflexes,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+133,41,Female,Mild forgetfulness,44,No,,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+134,76,Male,"Sleep disturbances, Stress-related symptoms",39,No,Hypothyroidism,Intact cranial nerves,CT: No acute intracranial findings,Routine labs within normal limits,0
+135,17,Female,"Stress-related symptoms, Temporary vision spots",15,No,Depression,No motor/sensory deficits,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+136,84,Male,"Anxiety symptoms, Migraine",49,No,Hypertension,Normal gait and balance,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+137,41,Female,Temporary vision spots,300,No,Migraines,No motor/sensory deficits,CT: No acute intracranial findings,Normal metabolic panel,0
+138,23,Male,Light sensitivity,29,No,Hypertension,Normal gait and balance,CT: No acute intracranial findings,Routine labs within normal limits,0
+139,76,Female,Dizziness,22,No,High cholesterol,No focal deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+140,51,Female,Unrelated symptom A,25,No,Hypertension,Cognitive deficits; Visual field defect,CT: Irregular hyperdense mass with calcifications in parietal lobe,Electrolyte imbalance,0
+141,65,Female,"Blurred or double vision, Loss of balance",13,No,Diabetes,Abnormal reflexes; Mild hemiparesis observed,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,1
+142,58,Female,Light sensitivity,18,Yes,Asthma,Intact cranial nerves,CT: No acute intracranial findings,No significant abnormalities,0
+143,38,Male,Stress-related symptoms,33,No,Diabetes,Intact cranial nerves,MRI: Normal ventricular size and configuration,Normal blood work,0
+144,73,Female,Light sensitivity,16,Yes,Migraines,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+145,46,Male,Dizziness,45,No,Asthma,Normal gait and balance,MRI: Unremarkable study,Unremarkable blood tests,0
+146,66,Male,"Anxiety symptoms, Fatigue",100,Yes,Migraines,No focal deficits,MRI: Unremarkable study,Normal metabolic panel,0
+147,76,Male,Stress-related symptoms,44,No,Hypothyroidism,No focal deficits,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+148,72,Female,"Dizziness, Migraine",2,No,Asthma,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+149,66,Female,"Persistent headaches worse in morning, Hearing problems, Nausea and vomiting, Difficulty speaking",35,Yes,Diabetes,Abnormal reflexes; Gait disturbance,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+150,26,Male,"Light sensitivity, Migraine",42,Yes,Diabetes,No focal deficits,CT: No acute intracranial findings,Normal blood work,0
+151,53,Female,"Dizziness, Light sensitivity",34,Yes,Depression,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+152,16,Male,"Personality changes, Weakness in limbs",30,No,Asthma,Visual field defect; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+153,17,Male,"Loss of balance, Memory problems, Seizures",13,No,High cholesterol,Gait disturbance; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+154,70,Male,"Sleep disturbances, Anxiety symptoms",13,No,Depression,No focal deficits,MRI: Unremarkable study,No significant abnormalities,0
+155,73,Male,"Occasional headaches, Anxiety symptoms",18,No,,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+156,16,Female,"Dizziness, Stress-related symptoms",32,No,Hypothyroidism,Normal gait and balance,CT: No acute intracranial findings,Routine labs within normal limits,0
+157,16,Female,"Stress-related symptoms, Occasional headaches",32,Yes,,Normal gait and balance,MRI: Unremarkable study,Normal metabolic panel,0
+158,68,Female,Dizziness,300,No,Asthma,No motor/sensory deficits,MRI: Unremarkable study,No significant abnormalities,0
+159,15,Male,"Hearing problems, Seizures, Personality changes, Persistent headaches worse in morning",39,No,Hypothyroidism,Abnormal reflexes; Mild hemiparesis observed,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Abnormal hormone levels,1
+160,33,Male,Dizziness,46,No,Migraines,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+161,16,Male,"Migraine, Stress-related symptoms",29,No,Asthma,Intact cranial nerves,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+162,67,Female,No symptoms,49,No,Asthma,Mild hemiparesis observed; Abnormal reflexes,CT: Hypodense area with surrounding edema in right temporal lobe,Abnormal hormone levels,0
+163,58,Male,Stress-related symptoms,29,No,High cholesterol,No focal deficits,CT: No acute intracranial findings,Routine labs within normal limits,0
+164,46,Female,"Sleep disturbances, Mild forgetfulness",44,No,Depression,Intact cranial nerves,CT: No acute intracranial findings,Routine labs within normal limits,0
+165,84,Female,"Personality changes, Hearing problems, Weakness in limbs",16,Yes,Hypothyroidism,Gait disturbance; Cognitive deficits,CT: Hypodense area with surrounding edema in right temporal lobe,Elevated protein in CSF,1
+166,46,Female,Light sensitivity,44,Yes,High cholesterol,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+167,82,Female,Dizziness,47,Yes,Hypothyroidism,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+168,69,Male,"Persistent headaches worse in morning, Memory problems",10,No,High cholesterol,Mild hemiparesis observed; Visual field defect,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,1
+169,70,Female,Light sensitivity,30,No,Asthma,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+170,31,Female,"Temporary vision spots, Occasional headaches",25,Yes,Hypothyroidism,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+171,52,Female,"Stress-related symptoms, Migraine",39,Yes,Hypertension,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+172,38,Male,Fatigue,20,No,Asthma,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+173,83,Male,"Temporary vision spots, Migraine",5,Yes,Hypothyroidism,No motor/sensory deficits,MRI: Unremarkable study,Normal blood work,0
+174,120,Male,Stress-related symptoms,1,No,Asthma,No motor/sensory deficits,CT: No acute intracranial findings,Normal blood work,0
+175,25,Female,"Dizziness, Occasional headaches",30,No,Depression,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal blood work,0
+176,30,Female,Dizziness,49,No,High cholesterol,Normal gait and balance,CT: No acute intracranial findings,Normal blood work,0
+177,73,Female,"Dizziness, Fatigue",3,No,,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+178,84,Male,Temporary vision spots,45,No,High cholesterol,Normal neurological exam,MRI: Unremarkable study,Unremarkable blood tests,0
+179,17,Female,"Light sensitivity, Dizziness",14,No,Hypothyroidism,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+180,34,Male,"Temporary vision spots, Anxiety symptoms",200,Yes,High cholesterol,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+181,73,Male,"Dizziness, Migraine",300,No,Hypertension,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+182,50,Male,"Difficulty speaking, Nausea and vomiting",4,No,High cholesterol,Mild hemiparesis observed; Visual field defect,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Abnormal hormone levels,1
+183,33,Female,Stress-related symptoms,18,No,Migraines,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+184,81,Male,"Mild forgetfulness, Sleep disturbances",37,No,Depression,Intact cranial nerves,CT: No acute intracranial findings,Routine labs within normal limits,0
+185,33,Female,Random symptom,25,Yes,,Gait disturbance; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Elevated protein in CSF,0
+186,34,Female,"Migraine, Sleep disturbances",48,No,,No focal deficits,CT: No acute intracranial findings,Routine labs within normal limits,0
+187,66,Male,Temporary vision spots,1,No,Hypertension,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+188,47,Female,"Loss of balance, Seizures, Persistent headaches worse in morning",46,No,,Abnormal reflexes; Gait disturbance,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Electrolyte imbalance,1
+189,54,Male,"Fatigue, Light sensitivity",15,No,Hypertension,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+190,53,Male,"Personality changes, Blurred or double vision, Weakness in limbs",9,No,Hypothyroidism,Facial droop present; Visual field defect,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Electrolyte imbalance,1
+191,120,Male,Migraine,15,No,Diabetes,Intact cranial nerves,MRI: Unremarkable study,Routine labs within normal limits,0
+192,25,Male,Light sensitivity,49,No,Depression,Normal gait and balance,MRI: Unremarkable study,Unremarkable blood tests,0
+193,71,Female,Mild forgetfulness,24,No,Asthma,Normal gait and balance,MRI: Unremarkable study,Unremarkable blood tests,0
+194,64,Male,"Persistent headaches worse in morning, Memory problems, Seizures",4,Yes,High cholesterol,Pupil asymmetry noted; Gait disturbance,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Electrolyte imbalance,1
+195,37,Female,Sleep disturbances,12,No,Asthma,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+196,45,Female,Dizziness,37,No,Depression,Normal gait and balance,MRI: Unremarkable study,Normal metabolic panel,0
+197,56,Female,"Anxiety symptoms, Fatigue",37,No,,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+198,21,Female,"Dizziness, Migraine",43,No,Migraines,Intact cranial nerves,CT: No acute intracranial findings,Normal metabolic panel,0
+199,30,Female,"Stress-related symptoms, Sleep disturbances",6,No,Hypothyroidism,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+200,74,Male,"Migraine, Mild forgetfulness",39,Yes,Depression,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+201,16,Male,Light sensitivity,100,No,Depression,No focal deficits,MRI: Unremarkable study,Routine labs within normal limits,0
+202,15,Female,Anxiety symptoms,24,Yes,,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+203,62,Female,"Memory problems, Blurred or double vision, Seizures",11,No,Migraines,Abnormal reflexes; Facial droop present,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,1
+204,26,Male,No symptoms,13,No,Migraines,Visual field defect; Facial droop present,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,0
+205,83,Female,"Seizures, Weakness in limbs",34,No,Hypothyroidism,Abnormal reflexes; Cognitive deficits,MRI: Heterogeneously enhancing lesion with mass effect,Increased inflammatory markers,1
+206,51,Male,"Blurred or double vision, Memory problems",25,No,Depression,Visual field defect; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Elevated protein in CSF,1
+207,46,Female,"Stress-related symptoms, Sleep disturbances",7,No,Hypertension,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+208,23,Male,No symptoms,4,No,,No motor/sensory deficits,MRI: Unremarkable study,Routine labs within normal limits,1
+209,33,Male,"Temporary vision spots, Occasional headaches",200,No,Depression,No motor/sensory deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+210,62,Male,Random symptom,20,No,High cholesterol,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,1
+211,17,Female,"Temporary vision spots, Dizziness",29,No,High cholesterol,Normal gait and balance,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+212,34,Female,"Anxiety symptoms, Fatigue",51,No,Asthma,Normal gait and balance,MRI: Unremarkable study,Routine labs within normal limits,0
+213,38,Male,"Dizziness, Migraine",45,No,Hypertension,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+214,68,Female,"Anxiety symptoms, Mild forgetfulness",46,No,Diabetes,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+215,47,Male,Light sensitivity,10,No,Migraines,Intact cranial nerves,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+216,38,Female,"Temporary vision spots, Sleep disturbances",43,No,High cholesterol,Normal gait and balance,CT: No acute intracranial findings,Routine labs within normal limits,0
+217,50,Male,"Weakness in limbs, Difficulty speaking, Nausea and vomiting, Memory problems",34,No,Migraines,Mild hemiparesis observed; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Increased inflammatory markers,1
+218,120,Male,"Anxiety symptoms, Migraine",26,No,Depression,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+219,39,Female,"Stress-related symptoms, Sleep disturbances",41,No,Diabetes,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+220,32,Female,Fatigue,49,No,High cholesterol,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+221,80,Female,Mild forgetfulness,3,No,Asthma,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+222,120,Female,Occasional headaches,6,No,Asthma,Normal neurological exam,CT: No acute intracranial findings,Normal metabolic panel,0
+223,49,Female,Unrelated symptom A,5,Yes,Hypothyroidism,Intact cranial nerves,MRI: Normal ventricular size and configuration,No significant abnormalities,1
+224,75,Male,"Dizziness, Mild forgetfulness",5,No,Hypertension,Normal gait and balance,CT: No acute intracranial findings,Normal blood work,0
+225,55,Female,"Light sensitivity, Occasional headaches",47,Yes,Hypertension,No focal deficits,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+226,47,Female,"Dizziness, Mild forgetfulness",23,No,Asthma,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+227,82,Female,"Nausea and vomiting, Hearing problems, Difficulty speaking, Blurred or double vision",49,No,Depression,Facial droop present; Visual field defect,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,1
+228,47,Female,"Memory problems, Hearing problems, Weakness in limbs, Personality changes",9,No,Hypothyroidism,Mild hemiparesis observed; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Electrolyte imbalance,1
+229,28,Female,Dizziness,35,No,Depression,No motor/sensory deficits,MRI: Unremarkable study,No significant abnormalities,0
+230,35,Female,Sleep disturbances,20,No,Hypothyroidism,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+231,62,Male,Dizziness,49,No,Migraines,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+232,34,Female,"Loss of balance, Hearing problems, Difficulty speaking",42,No,,Abnormal reflexes; Gait disturbance,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,1
+233,22,Male,Random symptom,35,No,,No focal deficits,MRI: Normal ventricular size and configuration,Normal blood work,1
+234,21,Female,Migraine,50,Yes,Migraines,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+235,81,Female,"Loss of balance, Hearing problems, Weakness in limbs",18,Yes,Hypothyroidism,Visual field defect; Gait disturbance,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Abnormal hormone levels,1
+236,31,Male,"Stress-related symptoms, Sleep disturbances",17,No,Diabetes,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+237,47,Female,"Seizures, Memory problems",24,No,Hypertension,Visual field defect; Abnormal reflexes,CT: Irregular hyperdense mass with calcifications in parietal lobe,Elevated protein in CSF,1
+238,62,Female,"Migraine, Light sensitivity",3,No,Migraines,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+239,73,Female,"Sleep disturbances, Occasional headaches",32,No,Asthma,Normal neurological exam,CT: No acute intracranial findings,Normal metabolic panel,0
+240,36,Female,Unrelated symptom B,100,No,,No motor/sensory deficits,MRI: Unremarkable study,Routine labs within normal limits,1
+241,44,Male,"Memory problems, Seizures, Nausea and vomiting",38,No,Hypothyroidism,Facial droop present; Mild hemiparesis observed,MRI: Heterogeneously enhancing lesion with mass effect,Increased inflammatory markers,1
+242,52,Female,"Blurred or double vision, Seizures, Weakness in limbs, Personality changes",13,No,Depression,Cognitive deficits; Gait disturbance,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Elevated protein in CSF,1
+243,65,Female,Temporary vision spots,47,No,,Intact cranial nerves,MRI: Unremarkable study,Routine labs within normal limits,0
+244,68,Male,"Weakness in limbs, Memory problems, Difficulty speaking",25,No,Hypertension,Visual field defect; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+245,22,Female,Unrelated symptom B,9,No,Asthma,Normal gait and balance,MRI: Normal ventricular size and configuration,Routine labs within normal limits,1
+246,41,Male,"Stress-related symptoms, Anxiety symptoms",4,No,Asthma,Intact cranial nerves,CT: No acute intracranial findings,Unremarkable blood tests,0
+247,41,Male,"Temporary vision spots, Light sensitivity",14,Yes,,Normal gait and balance,MRI: Unremarkable study,Normal blood work,0
+248,35,Female,Stress-related symptoms,37,No,Hypertension,No focal deficits,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+249,44,Female,"Fatigue, Light sensitivity",34,No,Hypertension,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+250,42,Male,"Sleep disturbances, Occasional headaches",11,No,Migraines,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+251,78,Female,"Fatigue, Migraine",41,Yes,Hypothyroidism,Normal neurological exam,MRI: Unremarkable study,Routine labs within normal limits,0
+252,83,Male,"Anxiety symptoms, Temporary vision spots",3,No,High cholesterol,Normal neurological exam,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+253,75,Male,"Seizures, Hearing problems, Persistent headaches worse in morning, Difficulty speaking",28,Yes,Hypothyroidism,Visual field defect; Visual field defect,MRI: Heterogeneously enhancing lesion with mass effect,Increased inflammatory markers,1
+254,62,Male,Occasional headaches,29,Yes,Hypertension,No motor/sensory deficits,CT: No acute intracranial findings,No significant abnormalities,0
+255,33,Male,"Personality changes, Weakness in limbs, Hearing problems, Memory problems",9,No,Hypothyroidism,Visual field defect; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Increased inflammatory markers,1
+256,18,Male,"Hearing problems, Blurred or double vision",3,No,Migraines,Pupil asymmetry noted; Pupil asymmetry noted,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Abnormal hormone levels,1
+257,49,Female,"Temporary vision spots, Light sensitivity",25,No,Hypothyroidism,Normal gait and balance,CT: No acute intracranial findings,Routine labs within normal limits,0
+258,78,Female,"Weakness in limbs, Difficulty speaking, Personality changes, Persistent headaches worse in morning",34,No,Hypothyroidism,Pupil asymmetry noted; Facial droop present,MRI: Heterogeneously enhancing lesion with mass effect,Mild leukocytosis,1
+259,63,Male,Unrelated symptom A,12,No,Diabetes,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal blood work,1
+260,31,Female,No symptoms,42,No,Hypothyroidism,Normal gait and balance,MRI: Unremarkable study,Normal blood work,1
+261,58,Female,"Dizziness, Light sensitivity",9,Yes,Diabetes,No focal deficits,CT: No acute intracranial findings,No significant abnormalities,0
+262,44,Male,"Difficulty speaking, Nausea and vomiting, Seizures",15,No,Hypothyroidism,Abnormal reflexes; Pupil asymmetry noted,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,1
+263,60,Female,"Sleep disturbances, Anxiety symptoms",40,No,,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+264,20,Female,"Fatigue, Dizziness",25,No,Hypertension,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,No significant abnormalities,0
+265,51,Male,No symptoms,5,No,Hypothyroidism,Mild hemiparesis observed; Cognitive deficits,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Abnormal hormone levels,0
+266,38,Male,Unrelated symptom B,11,No,Diabetes,Normal gait and balance,CT: No acute intracranial findings,Unremarkable blood tests,1
+267,60,Female,"Personality changes, Weakness in limbs",34,Yes,High cholesterol,Mild hemiparesis observed; Abnormal reflexes,MRI: Heterogeneously enhancing lesion with mass effect,Elevated protein in CSF,1
+268,67,Female,"Weakness in limbs, Loss of balance, Blurred or double vision, Memory problems",24,No,Migraines,Abnormal reflexes; Mild hemiparesis observed,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,1
+269,74,Male,"Occasional headaches, Anxiety symptoms",300,No,,No focal deficits,CT: No acute intracranial findings,Normal blood work,0
+270,77,Female,"Difficulty speaking, Nausea and vomiting, Loss of balance, Hearing problems",38,Yes,,Facial droop present; Visual field defect,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,1
+271,46,Female,Mild forgetfulness,8,No,Depression,No focal deficits,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+272,47,Female,Temporary vision spots,5,No,Depression,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+273,81,Female,"Dizziness, Sleep disturbances",48,Yes,Migraines,No motor/sensory deficits,MRI: Unremarkable study,No significant abnormalities,0
+274,32,Female,"Migraine, Dizziness",26,No,High cholesterol,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+275,39,Male,"Loss of balance, Hearing problems",18,No,High cholesterol,Gait disturbance; Visual field defect,MRI: Heterogeneously enhancing lesion with mass effect,Electrolyte imbalance,1
+276,68,Male,Unrelated symptom B,6,Yes,High cholesterol,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,1
+277,72,Female,Temporary vision spots,37,No,Asthma,Normal neurological exam,CT: No acute intracranial findings,Normal blood work,0
+278,81,Female,"Anxiety symptoms, Light sensitivity",48,No,,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+279,60,Male,Stress-related symptoms,200,No,Asthma,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+280,38,Female,No symptoms,28,Yes,Diabetes,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,1
+281,46,Female,Temporary vision spots,5,Yes,High cholesterol,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+282,61,Male,"Memory problems, Hearing problems",13,No,High cholesterol,Pupil asymmetry noted; Gait disturbance,CT: Hypodense area with surrounding edema in right temporal lobe,Elevated protein in CSF,1
+283,37,Female,"Light sensitivity, Fatigue",17,No,Migraines,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+284,80,Female,"Temporary vision spots, Anxiety symptoms",50,No,High cholesterol,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+285,41,Female,Unrelated symptom A,40,No,High cholesterol,Cognitive deficits; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Abnormal hormone levels,0
+286,16,Female,Sleep disturbances,45,No,Migraines,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+287,31,Male,Anxiety symptoms,32,Yes,Depression,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+288,47,Female,Mild forgetfulness,300,No,,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal blood work,0
+289,23,Male,No symptoms,51,No,,Visual field defect; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Elevated protein in CSF,0
+290,57,Male,"Hearing problems, Nausea and vomiting, Memory problems, Weakness in limbs",3,No,Diabetes,Visual field defect; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+291,62,Female,Fatigue,40,No,Diabetes,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+292,53,Male,Light sensitivity,34,No,Hypertension,No motor/sensory deficits,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+293,56,Male,"Seizures, Personality changes, Blurred or double vision",100,No,Hypertension,Abnormal reflexes; Facial droop present,MRI: Heterogeneously enhancing lesion with mass effect,Mild leukocytosis,1
+294,40,Female,"Memory problems, Seizures, Persistent headaches worse in morning, Difficulty speaking",27,No,High cholesterol,Cognitive deficits; Visual field defect,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+295,64,Male,"Loss of balance, Personality changes, Blurred or double vision",13,No,Hypothyroidism,Facial droop present; Mild hemiparesis observed,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Increased inflammatory markers,1
+296,39,Male,"Migraine, Light sensitivity",45,No,Hypertension,No focal deficits,CT: No acute intracranial findings,Routine labs within normal limits,0
+297,38,Female,"Nausea and vomiting, Blurred or double vision",33,No,,Mild hemiparesis observed; Pupil asymmetry noted,CT: Irregular hyperdense mass with calcifications in parietal lobe,Elevated protein in CSF,1
+298,27,Female,"Seizures, Persistent headaches worse in morning",6,No,Diabetes,Mild hemiparesis observed; Cognitive deficits,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,1
+299,74,Male,Stress-related symptoms,24,Yes,Hypertension,No motor/sensory deficits,MRI: Unremarkable study,Normal metabolic panel,0
+300,21,Female,Light sensitivity,19,No,Hypothyroidism,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+301,71,Female,"Dizziness, Migraine",16,Yes,Migraines,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+302,50,Female,"Blurred or double vision, Persistent headaches worse in morning",40,No,Hypothyroidism,Pupil asymmetry noted; Pupil asymmetry noted,CT: Hypodense area with surrounding edema in right temporal lobe,Mild leukocytosis,1
+303,59,Female,"Personality changes, Weakness in limbs, Hearing problems",28,No,,Pupil asymmetry noted; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Electrolyte imbalance,1
+304,34,Female,"Migraine, Fatigue",33,No,,No focal deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+305,120,Female,"Temporary vision spots, Sleep disturbances",48,No,,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+306,22,Female,No symptoms,41,Yes,,Visual field defect; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,0
+307,30,Female,"Nausea and vomiting, Hearing problems, Persistent headaches worse in morning",13,No,Migraines,Cognitive deficits; Facial droop present,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,1
+308,28,Male,Dizziness,43,No,Hypothyroidism,No focal deficits,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+309,29,Male,Occasional headaches,45,No,Diabetes,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+310,80,Female,Light sensitivity,25,No,Diabetes,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+311,46,Female,"Personality changes, Seizures, Hearing problems",42,No,Migraines,Gait disturbance; Pupil asymmetry noted,CT: Hypodense area with surrounding edema in right temporal lobe,Mild leukocytosis,1
+312,77,Female,"Fatigue, Light sensitivity",36,No,,Normal neurological exam,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+313,65,Male,Migraine,27,Yes,Diabetes,Normal gait and balance,CT: No acute intracranial findings,Normal metabolic panel,0
+314,39,Female,"Difficulty speaking, Seizures, Personality changes",38,Yes,Migraines,Visual field defect; Cognitive deficits,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Elevated protein in CSF,1
+315,72,Male,"Difficulty speaking, Weakness in limbs",7,No,High cholesterol,Mild hemiparesis observed; Pupil asymmetry noted,CT: Irregular hyperdense mass with calcifications in parietal lobe,Electrolyte imbalance,1
+316,77,Male,"Stress-related symptoms, Light sensitivity",5,No,Depression,Normal neurological exam,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+317,76,Female,"Mild forgetfulness, Light sensitivity",43,No,,No focal deficits,MRI: Normal ventricular size and configuration,Normal blood work,0
+318,36,Female,"Memory problems, Hearing problems, Weakness in limbs",45,No,Diabetes,Pupil asymmetry noted; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Electrolyte imbalance,1
+319,72,Female,No symptoms,51,No,Asthma,No motor/sensory deficits,CT: No acute intracranial findings,Routine labs within normal limits,1
+320,72,Female,"Personality changes, Hearing problems, Blurred or double vision",31,No,,Cognitive deficits; Cognitive deficits,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,1
+321,63,Male,Occasional headaches,23,Yes,,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Normal blood work,0
+322,66,Female,Unrelated symptom A,42,No,High cholesterol,Normal gait and balance,MRI: Unremarkable study,Unremarkable blood tests,1
+323,56,Male,"Fatigue, Light sensitivity",100,No,Depression,No focal deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+324,84,Female,"Stress-related symptoms, Temporary vision spots",32,No,Diabetes,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+325,100,Female,Stress-related symptoms,43,No,Depression,Normal gait and balance,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+326,68,Female,Random symptom,30,No,Asthma,Normal gait and balance,MRI: Unremarkable study,Normal blood work,1
+327,74,Female,"Weakness in limbs, Hearing problems, Difficulty speaking, Memory problems",39,No,Hypothyroidism,Cognitive deficits; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+328,22,Female,Light sensitivity,31,No,Depression,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+329,67,Female,"Light sensitivity, Migraine",18,No,High cholesterol,Intact cranial nerves,MRI: Unremarkable study,Routine labs within normal limits,0
+330,74,Male,Unrelated symptom B,36,No,High cholesterol,Visual field defect; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,0
+331,19,Male,"Light sensitivity, Occasional headaches",2,No,Asthma,No motor/sensory deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+332,82,Male,Unrelated symptom B,14,No,Asthma,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,1
+333,20,Male,"Light sensitivity, Stress-related symptoms",13,No,Depression,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+334,61,Female,"Light sensitivity, Mild forgetfulness",29,No,Hypertension,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+335,69,Female,"Difficulty speaking, Personality changes",12,No,Hypertension,Visual field defect; Pupil asymmetry noted,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+336,54,Male,"Seizures, Hearing problems, Difficulty speaking",39,No,Depression,Visual field defect; Facial droop present,CT: Irregular hyperdense mass with calcifications in parietal lobe,Increased inflammatory markers,1
+337,66,Male,"Stress-related symptoms, Sleep disturbances",2,No,Migraines,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+338,30,Male,"Seizures, Nausea and vomiting, Loss of balance, Hearing problems",32,Yes,Asthma,Cognitive deficits; Facial droop present,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,1
+339,27,Female,Temporary vision spots,13,No,High cholesterol,No focal deficits,MRI: No intracranial mass or abnormal enhancement,No significant abnormalities,0
+340,44,Female,"Temporary vision spots, Anxiety symptoms",46,No,,No focal deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+341,33,Male,"Personality changes, Loss of balance",27,No,,Mild hemiparesis observed; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Abnormal hormone levels,1
+342,31,Female,"Migraine, Dizziness",49,No,Depression,No motor/sensory deficits,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+343,77,Female,"Hearing problems, Memory problems",41,No,Hypothyroidism,Abnormal reflexes; Visual field defect,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+344,110,Male,"Blurred or double vision, Weakness in limbs, Memory problems, Personality changes",17,No,,Visual field defect; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,1
+345,72,Female,Migraine,40,Yes,Hypothyroidism,No motor/sensory deficits,CT: No acute intracranial findings,Normal metabolic panel,0
+346,69,Female,"Occasional headaches, Mild forgetfulness",31,Yes,High cholesterol,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+347,76,Male,Occasional headaches,34,No,,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+348,37,Male,Temporary vision spots,24,No,High cholesterol,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+349,23,Male,"Temporary vision spots, Occasional headaches",45,No,High cholesterol,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Normal blood work,0
+350,26,Male,"Migraine, Light sensitivity",35,No,Asthma,Intact cranial nerves,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+351,15,Female,"Temporary vision spots, Light sensitivity",48,No,,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+352,72,Female,"Hearing problems, Weakness in limbs",6,No,,Cognitive deficits; Gait disturbance,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,1
+353,15,Male,"Mild forgetfulness, Migraine",19,Yes,Asthma,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+354,48,Male,Stress-related symptoms,30,No,Diabetes,Intact cranial nerves,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+355,62,Male,"Seizures, Personality changes, Hearing problems, Blurred or double vision",7,No,Asthma,Mild hemiparesis observed; Pupil asymmetry noted,CT: Irregular hyperdense mass with calcifications in parietal lobe,Elevated protein in CSF,1
+356,15,Male,"Difficulty speaking, Hearing problems",10,No,,Pupil asymmetry noted; Cognitive deficits,MRI: Heterogeneously enhancing lesion with mass effect,Elevated protein in CSF,1
+357,30,Female,"Fatigue, Stress-related symptoms",41,Yes,Hypothyroidism,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+358,75,Male,"Loss of balance, Hearing problems, Difficulty speaking, Weakness in limbs",32,No,Asthma,Pupil asymmetry noted; Abnormal reflexes,MRI: Heterogeneously enhancing lesion with mass effect,Increased inflammatory markers,1
+359,78,Male,"Stress-related symptoms, Light sensitivity",34,No,High cholesterol,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+360,77,Male,"Stress-related symptoms, Occasional headaches",28,No,,No motor/sensory deficits,MRI: Unremarkable study,Unremarkable blood tests,0
+361,83,Female,"Anxiety symptoms, Mild forgetfulness",15,Yes,High cholesterol,Normal neurological exam,MRI: Unremarkable study,Normal blood work,0
+362,36,Male,Dizziness,30,No,Asthma,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+363,81,Female,Occasional headaches,37,No,Hypertension,No motor/sensory deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+364,40,Male,"Sleep disturbances, Mild forgetfulness",29,No,Hypothyroidism,Normal neurological exam,CT: No acute intracranial findings,Routine labs within normal limits,0
+365,30,Female,Sleep disturbances,22,No,Depression,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+366,65,Female,"Sleep disturbances, Dizziness",4,Yes,Depression,Normal gait and balance,CT: No acute intracranial findings,Routine labs within normal limits,0
+367,71,Male,Fatigue,20,No,Hypothyroidism,No focal deficits,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+368,43,Male,"Temporary vision spots, Dizziness",32,Yes,Migraines,Normal gait and balance,MRI: Unremarkable study,Normal blood work,0
+369,83,Female,"Memory problems, Hearing problems, Personality changes, Weakness in limbs",36,No,Hypertension,Pupil asymmetry noted; Pupil asymmetry noted,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+370,61,Female,"Anxiety symptoms, Occasional headaches",300,No,Diabetes,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+371,76,Male,"Nausea and vomiting, Weakness in limbs, Blurred or double vision",4,No,High cholesterol,Cognitive deficits; Gait disturbance,MRI: Heterogeneously enhancing lesion with mass effect,Elevated protein in CSF,1
+372,83,Female,"Blurred or double vision, Personality changes, Loss of balance, Persistent headaches worse in morning",27,No,,Facial droop present; Mild hemiparesis observed,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Increased inflammatory markers,1
+373,30,Female,Random symptom,17,Yes,Asthma,Mild hemiparesis observed; Abnormal reflexes,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,0
+374,62,Female,"Migraine, Anxiety symptoms",12,No,Diabetes,Intact cranial nerves,CT: No acute intracranial findings,Normal blood work,0
+375,53,Male,"Fatigue, Migraine",22,No,,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Normal blood work,0
+376,47,Female,"Migraine, Mild forgetfulness",17,No,,Intact cranial nerves,MRI: Unremarkable study,Unremarkable blood tests,0
+377,37,Male,No symptoms,10,No,Hypertension,Facial droop present; Cognitive deficits,CT: Hypodense area with surrounding edema in right temporal lobe,Electrolyte imbalance,0
+378,24,Female,"Weakness in limbs, Hearing problems, Seizures, Nausea and vomiting",1,No,High cholesterol,Abnormal reflexes; Pupil asymmetry noted,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,1
+379,83,Male,Temporary vision spots,22,Yes,High cholesterol,No motor/sensory deficits,CT: No acute intracranial findings,Unremarkable blood tests,0
+380,48,Male,"Mild forgetfulness, Stress-related symptoms",26,Yes,Hypertension,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+381,66,Male,"Fatigue, Sleep disturbances",18,Yes,,Normal neurological exam,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+382,24,Female,Unrelated symptom B,50,No,Diabetes,Normal neurological exam,MRI: Normal ventricular size and configuration,Routine labs within normal limits,1
+383,33,Male,"Blurred or double vision, Nausea and vomiting, Loss of balance",14,No,Depression,Gait disturbance; Mild hemiparesis observed,CT: Irregular hyperdense mass with calcifications in parietal lobe,Electrolyte imbalance,1
+384,72,Male,"Difficulty speaking, Loss of balance",47,No,Diabetes,Mild hemiparesis observed; Pupil asymmetry noted,MRI: Heterogeneously enhancing lesion with mass effect,Elevated protein in CSF,1
+385,15,Male,Dizziness,29,No,,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal blood work,0
+386,83,Female,"Occasional headaches, Fatigue",200,No,Asthma,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+387,18,Female,Unrelated symptom A,36,No,Diabetes,Normal gait and balance,MRI: Unremarkable study,Normal metabolic panel,1
+388,30,Male,"Weakness in limbs, Hearing problems",35,No,Migraines,Gait disturbance; Visual field defect,CT: Irregular hyperdense mass with calcifications in parietal lobe,Electrolyte imbalance,1
+389,38,Female,Mild forgetfulness,12,No,High cholesterol,Normal gait and balance,MRI: Unremarkable study,No significant abnormalities,0
+390,110,Female,No symptoms,7,No,Hypothyroidism,Abnormal reflexes; Pupil asymmetry noted,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,0
+391,46,Female,"Sleep disturbances, Fatigue",29,No,Diabetes,No focal deficits,MRI: Unremarkable study,Routine labs within normal limits,0
+392,38,Male,"Stress-related symptoms, Fatigue",11,Yes,Migraines,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+393,26,Male,"Hearing problems, Personality changes, Seizures",33,No,Asthma,Visual field defect; Abnormal reflexes,CT: Hypodense area with surrounding edema in right temporal lobe,Elevated protein in CSF,1
+394,120,Male,"Anxiety symptoms, Temporary vision spots",6,No,Migraines,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+395,49,Male,Stress-related symptoms,47,No,Asthma,No focal deficits,CT: No acute intracranial findings,Normal metabolic panel,0
+396,47,Male,"Memory problems, Loss of balance",15,No,Depression,Mild hemiparesis observed; Cognitive deficits,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+397,47,Female,"Loss of balance, Difficulty speaking, Personality changes, Persistent headaches worse in morning",32,No,Hypothyroidism,Mild hemiparesis observed; Pupil asymmetry noted,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,1
+398,75,Male,"Light sensitivity, Stress-related symptoms",51,No,Depression,No focal deficits,MRI: Normal ventricular size and configuration,No significant abnormalities,0
+399,65,Male,Stress-related symptoms,11,No,Asthma,No motor/sensory deficits,CT: No acute intracranial findings,Normal metabolic panel,0
+400,57,Female,Occasional headaches,23,No,Migraines,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+401,26,Male,Mild forgetfulness,26,No,Migraines,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+402,81,Female,Random symptom,34,No,Hypertension,Facial droop present; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Mild leukocytosis,0
+403,79,Female,"Dizziness, Stress-related symptoms",46,No,Hypothyroidism,Normal gait and balance,MRI: Unremarkable study,Normal metabolic panel,0
+404,47,Male,Stress-related symptoms,34,Yes,High cholesterol,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Normal metabolic panel,0
+405,54,Female,"Mild forgetfulness, Fatigue",29,No,Diabetes,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+406,57,Female,"Persistent headaches worse in morning, Memory problems, Blurred or double vision",4,No,High cholesterol,Mild hemiparesis observed; Facial droop present,CT: Irregular hyperdense mass with calcifications in parietal lobe,Elevated protein in CSF,1
+407,58,Female,Unrelated symptom A,17,No,Asthma,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,1
+408,43,Female,"Seizures, Nausea and vomiting, Loss of balance",35,Yes,Asthma,Visual field defect; Cognitive deficits,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+409,27,Female,Fatigue,13,Yes,Migraines,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,No significant abnormalities,0
+410,26,Female,"Difficulty speaking, Blurred or double vision",41,No,Depression,Abnormal reflexes; Mild hemiparesis observed,MRI: Heterogeneously enhancing lesion with mass effect,Electrolyte imbalance,1
+411,60,Male,"Migraine, Anxiety symptoms",39,No,Hypothyroidism,Intact cranial nerves,CT: No acute intracranial findings,Normal blood work,0
+412,16,Male,"Fatigue, Light sensitivity",300,No,Asthma,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+413,49,Male,"Migraine, Occasional headaches",29,No,Depression,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+414,22,Female,"Stress-related symptoms, Dizziness",29,No,Asthma,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+415,40,Male,"Difficulty speaking, Personality changes, Persistent headaches worse in morning, Loss of balance",11,No,Hypothyroidism,Abnormal reflexes; Abnormal reflexes,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Elevated protein in CSF,1
+416,120,Female,"Dizziness, Anxiety symptoms",32,No,,Normal neurological exam,MRI: Unremarkable study,Routine labs within normal limits,0
+417,21,Female,Mild forgetfulness,2,No,Hypothyroidism,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+418,82,Female,"Difficulty speaking, Seizures",47,Yes,Migraines,Abnormal reflexes; Facial droop present,CT: Irregular hyperdense mass with calcifications in parietal lobe,Increased inflammatory markers,1
+419,72,Female,"Temporary vision spots, Light sensitivity",14,No,,Normal gait and balance,CT: No acute intracranial findings,Normal metabolic panel,0
+420,43,Female,Dizziness,20,No,Hypertension,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+421,50,Female,Migraine,22,No,Hypothyroidism,Normal neurological exam,MRI: Normal ventricular size and configuration,Normal blood work,0
+422,100,Male,"Sleep disturbances, Migraine",11,No,Diabetes,Normal neurological exam,MRI: Unremarkable study,Normal blood work,0
+423,110,Female,"Hearing problems, Persistent headaches worse in morning",27,No,Migraines,Gait disturbance; Cognitive deficits,CT: Hypodense area with surrounding edema in right temporal lobe,Increased inflammatory markers,1
+424,100,Male,"Occasional headaches, Mild forgetfulness",3,No,Diabetes,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+425,38,Male,Anxiety symptoms,17,Yes,Diabetes,Normal neurological exam,CT: No acute intracranial findings,Routine labs within normal limits,0
+426,78,Female,No symptoms,44,No,Hypothyroidism,Normal neurological exam,CT: No acute intracranial findings,No significant abnormalities,1
+427,63,Female,"Occasional headaches, Stress-related symptoms",28,No,Hypertension,No focal deficits,MRI: Unremarkable study,Routine labs within normal limits,0
+428,50,Male,"Dizziness, Anxiety symptoms",29,No,Migraines,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+429,38,Female,"Temporary vision spots, Sleep disturbances",21,Yes,Depression,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+430,37,Female,Unrelated symptom A,47,No,Hypertension,Gait disturbance; Facial droop present,MRI: Heterogeneously enhancing lesion with mass effect,Increased inflammatory markers,0
+431,76,Female,"Difficulty speaking, Nausea and vomiting, Memory problems, Seizures",16,Yes,Diabetes,Cognitive deficits; Pupil asymmetry noted,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,1
+432,51,Female,Light sensitivity,37,No,Hypothyroidism,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+433,26,Female,Mild forgetfulness,20,No,High cholesterol,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+434,69,Female,No symptoms,6,No,Hypertension,Normal gait and balance,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,1
+435,27,Female,"Migraine, Temporary vision spots",19,No,Hypertension,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+436,37,Female,"Weakness in limbs, Blurred or double vision, Hearing problems",5,No,Asthma,Cognitive deficits; Visual field defect,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+437,44,Female,"Anxiety symptoms, Dizziness",3,Yes,High cholesterol,Normal gait and balance,MRI: Unremarkable study,Normal metabolic panel,0
+438,31,Female,Light sensitivity,1,Yes,Hypertension,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+439,76,Male,Migraine,38,No,High cholesterol,Intact cranial nerves,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+440,27,Male,"Nausea and vomiting, Personality changes, Loss of balance, Persistent headaches worse in morning",15,No,High cholesterol,Facial droop present; Facial droop present,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Electrolyte imbalance,1
+441,73,Male,"Temporary vision spots, Sleep disturbances",34,No,Diabetes,No motor/sensory deficits,MRI: Unremarkable study,Normal metabolic panel,0
+442,33,Male,"Light sensitivity, Temporary vision spots",35,No,,Normal neurological exam,CT: No acute intracranial findings,Normal metabolic panel,0
+443,63,Female,Unrelated symptom B,49,Yes,Migraines,No motor/sensory deficits,MRI: Unremarkable study,Normal metabolic panel,1
+444,26,Female,"Sleep disturbances, Fatigue",25,No,Hypothyroidism,No motor/sensory deficits,MRI: Unremarkable study,Routine labs within normal limits,0
+445,75,Female,Mild forgetfulness,24,No,Depression,Intact cranial nerves,CT: No acute intracranial findings,No significant abnormalities,0
+446,33,Male,"Mild forgetfulness, Sleep disturbances",12,No,Asthma,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+447,23,Female,"Light sensitivity, Migraine",18,No,,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+448,42,Female,"Migraine, Temporary vision spots",15,No,Asthma,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+449,66,Female,"Stress-related symptoms, Mild forgetfulness",44,No,Hypothyroidism,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+450,30,Female,"Nausea and vomiting, Blurred or double vision",16,Yes,Hypertension,Gait disturbance; Facial droop present,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,1
+451,83,Female,"Memory problems, Weakness in limbs, Difficulty speaking, Personality changes",27,Yes,High cholesterol,Gait disturbance; Gait disturbance,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Electrolyte imbalance,1
+452,26,Male,Migraine,8,No,High cholesterol,Normal gait and balance,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+453,39,Female,"Memory problems, Weakness in limbs, Personality changes, Persistent headaches worse in morning",46,No,,Cognitive deficits; Pupil asymmetry noted,MRI: Heterogeneously enhancing lesion with mass effect,Increased inflammatory markers,1
+454,66,Male,Random symptom,25,Yes,Depression,Mild hemiparesis observed; Facial droop present,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Abnormal hormone levels,0
+455,67,Male,Light sensitivity,17,No,Hypertension,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+456,37,Female,Anxiety symptoms,29,No,Migraines,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+457,30,Male,"Weakness in limbs, Blurred or double vision, Hearing problems",8,No,High cholesterol,Visual field defect; Cognitive deficits,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Mild leukocytosis,1
+458,71,Female,"Anxiety symptoms, Dizziness",15,No,Hypertension,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Normal metabolic panel,0
+459,53,Male,"Sleep disturbances, Dizziness",27,No,Depression,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+460,67,Female,Unrelated symptom B,46,No,Depression,Intact cranial nerves,MRI: Unremarkable study,Normal blood work,1
+461,56,Male,Dizziness,50,Yes,Diabetes,No focal deficits,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+462,110,Female,"Migraine, Light sensitivity",7,No,Hypothyroidism,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal blood work,0
+463,53,Female,Sleep disturbances,3,No,Depression,No motor/sensory deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+464,120,Male,"Temporary vision spots, Migraine",29,No,Hypothyroidism,Normal neurological exam,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,0
+465,19,Female,"Occasional headaches, Light sensitivity",44,No,,Intact cranial nerves,MRI: Unremarkable study,Unremarkable blood tests,0
+466,49,Female,"Blurred or double vision, Difficulty speaking, Persistent headaches worse in morning",24,No,Diabetes,Mild hemiparesis observed; Gait disturbance,CT: Hypodense area with surrounding edema in right temporal lobe,Abnormal hormone levels,1
+467,32,Male,"Stress-related symptoms, Mild forgetfulness",3,No,Hypothyroidism,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Unremarkable blood tests,0
+468,23,Male,"Migraine, Fatigue",100,No,High cholesterol,Normal gait and balance,MRI: Unremarkable study,Normal metabolic panel,0
+469,72,Female,"Mild forgetfulness, Stress-related symptoms",46,No,Asthma,Intact cranial nerves,MRI: Unremarkable study,Unremarkable blood tests,0
+470,31,Female,"Occasional headaches, Anxiety symptoms",200,No,Hypertension,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,No significant abnormalities,0
+471,21,Female,"Sleep disturbances, Migraine",25,Yes,,No focal deficits,MRI: No intracranial mass or abnormal enhancement,Normal blood work,0
+472,60,Female,"Fatigue, Sleep disturbances",30,No,Hypothyroidism,No focal deficits,MRI: Unremarkable study,Unremarkable blood tests,0
+473,27,Male,"Weakness in limbs, Personality changes",14,No,Diabetes,Visual field defect; Cognitive deficits,MRI: Heterogeneously enhancing lesion with mass effect,Elevated protein in CSF,1
+474,54,Male,No symptoms,7,No,Hypothyroidism,Mild hemiparesis observed; Cognitive deficits,MRI: Well-circumscribed extra-axial lesion consistent with meningioma,Mild leukocytosis,0
+475,56,Female,Temporary vision spots,17,Yes,Hypertension,No focal deficits,CT: No acute intracranial findings,No significant abnormalities,0
+476,23,Male,"Hearing problems, Nausea and vomiting, Difficulty speaking",44,No,Asthma,Facial droop present; Mild hemiparesis observed,MRI: Enhancing mass lesion measuring approximately 2.3 cm in diameter in the left frontal lobe,Increased inflammatory markers,1
+477,64,Male,Temporary vision spots,20,No,,No motor/sensory deficits,MRI: Normal ventricular size and configuration,Routine labs within normal limits,0
+478,41,Female,"Migraine, Sleep disturbances",36,No,High cholesterol,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+479,80,Female,Fatigue,9,No,Depression,No focal deficits,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+480,19,Female,"Nausea and vomiting, Weakness in limbs, Blurred or double vision",38,Yes,Hypertension,Gait disturbance; Facial droop present,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+481,43,Female,Stress-related symptoms,48,No,Depression,Intact cranial nerves,CT: Normal brain parenchyma without focal lesions,Unremarkable blood tests,0
+482,51,Female,Light sensitivity,22,No,Depression,No focal deficits,MRI: Unremarkable study,Normal blood work,0
+483,52,Female,No symptoms,2,No,Hypothyroidism,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,1
+484,22,Female,"Persistent headaches worse in morning, Loss of balance",24,No,,Abnormal reflexes; Abnormal reflexes,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,1
+485,79,Male,"Stress-related symptoms, Migraine",8,Yes,Asthma,Normal neurological exam,CT: No acute intracranial findings,Unremarkable blood tests,0
+486,31,Male,"Light sensitivity, Stress-related symptoms",11,Yes,Hypothyroidism,Normal gait and balance,MRI: Unremarkable study,Normal blood work,0
+487,59,Female,Unrelated symptom A,13,Yes,Diabetes,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Routine labs within normal limits,1
+488,18,Female,"Light sensitivity, Occasional headaches",17,No,Asthma,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Normal metabolic panel,0
+489,50,Male,"Persistent headaches worse in morning, Difficulty speaking",8,No,Hypothyroidism,Visual field defect; Gait disturbance,MRI: Heterogeneously enhancing lesion with mass effect,Elevated protein in CSF,1
+490,84,Male,Temporary vision spots,100,No,Hypothyroidism,Normal neurological exam,CT: Normal brain parenchyma without focal lesions,Routine labs within normal limits,0
+491,45,Male,Occasional headaches,18,No,Depression,No focal deficits,CT: No acute intracranial findings,Normal blood work,0
+492,33,Male,"Memory problems, Nausea and vomiting, Personality changes",30,No,,Abnormal reflexes; Gait disturbance,CT: Irregular hyperdense mass with calcifications in parietal lobe,Abnormal hormone levels,1
+493,75,Female,Dizziness,18,Yes,Asthma,No motor/sensory deficits,CT: No acute intracranial findings,Normal blood work,0
+494,68,Male,"Personality changes, Difficulty speaking, Weakness in limbs",46,Yes,Diabetes,Mild hemiparesis observed; Gait disturbance,MRI: Heterogeneously enhancing lesion with mass effect,Mild leukocytosis,1
+495,53,Female,Unrelated symptom A,47,No,High cholesterol,Visual field defect; Visual field defect,MRI: Heterogeneously enhancing lesion with mass effect,Abnormal hormone levels,0
+496,33,Female,"Temporary vision spots, Sleep disturbances",31,No,High cholesterol,Intact cranial nerves,MRI: Normal ventricular size and configuration,Normal blood work,0
+497,53,Female,Migraine,38,No,Depression,No motor/sensory deficits,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+498,81,Female,Dizziness,32,No,Migraines,No focal deficits,CT: No acute intracranial findings,Normal blood work,0
+499,59,Male,"Migraine, Stress-related symptoms",11,No,,Normal gait and balance,MRI: No intracranial mass or abnormal enhancement,Unremarkable blood tests,0
+500,27,Female,"Difficulty speaking, Persistent headaches worse in morning",45,No,High cholesterol,Mild hemiparesis observed; Abnormal reflexes,CT: Hypodense area with surrounding edema in right temporal lobe,Elevated protein in CSF,1
